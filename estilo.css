@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.logo{ 
+    width: 100%;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: rgb(125, 125, 125);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 15px;
+    background: linear-gradient(300deg,rgba(7, 0, 136, 0.386) ,rgba(132, 183, 255, 0.483) , rgba(103, 146, 255, 0.477) , rgba(0, 98, 255, 0.466));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.calculadora{
+     display: flex;
+     flex-direction: column;
+     width: 340px;
+     justify-content: center;
+     align-items: center;
+}
+
+     
+.calculadora-display{
+padding: 15px 15px;
+width: 100%;
+text-align:right;
+font-size: 60px;
+overflow-x: auto;
+color: rgb(255, 255, 255);
+transition: 1s;
+font-family: 'Tenor Sans', sans-serif;
+background-color: rgb(31, 31, 31);
+-webkit-animation: slide-in-bottom .8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both 1.5s;
+	        animation: slide-in-bottom 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both 1.5s;
+}
+@-webkit-keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+.calculadora-pat{
+      display: flex;
+      width: 100%;
+}
+
+
+.numeros{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+
+}
+
+.pat-boton{
+    width: 25%;
+    padding: 25px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    
+}
+.pat-boton.azul{
+    background-color: rgb(0, 90, 187);
+    color: rgb(255, 255, 255);
+    -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both .5s;
+	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both .5s;
+            
+            
+}
+@-webkit-keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+.pat-boton:hover{
+    background-color: rgb(255, 255, 255);
+    transition: .3s;
+    color: black;
+}
+
+.pat-boton.oscuro{
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+font-weight: 100;
+font-size: 20px;
+}
+
+.pat-boton.large{
+    width: 50%;
+}
