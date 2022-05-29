@@ -78,7 +78,7 @@ background-color: rgb(31, 31, 31);
 .pat-boton.azul{
     background-color: rgb(0, 90, 187);
     color: rgb(255, 255, 255);
-    -webkit-animation: slide-in-left s cubic-bezier(0.250, 0.460, 0.450, 0.940) both ;
+    -webkit-animation: slide-in-left .6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both ;
 	        animation: slide-in-left .6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both ;
             z-index: 1;
             
