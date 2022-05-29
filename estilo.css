@@ -45,8 +45,8 @@ color: rgb(255, 255, 255);
 transition: 1s;
 font-family: 'Tenor Sans', sans-serif;
 background-color: rgb(31, 31, 31);
--webkit-animation: slide-in-bottom .8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both 1.5s;
-	        animation: slide-in-bottom 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both 1.5s;
+-webkit-animation: slide-in-bottom .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both .5s;
+	        animation: slide-in-bottom .5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both .5s;
 }
 @-webkit-keyframes slide-in-bottom {
     0% {
@@ -89,8 +89,8 @@ background-color: rgb(31, 31, 31);
 .pat-boton.azul{
     background-color: rgb(0, 90, 187);
     color: rgb(255, 255, 255);
-    -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both .5s;
-	        animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both .5s;
+    -webkit-animation: slide-in-left 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both .2s;
+	        animation: slide-in-left 7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both .2s;
             
             
 }
